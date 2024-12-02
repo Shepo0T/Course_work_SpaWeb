@@ -25,8 +25,6 @@ class HabitsListAPIView(generics.ListAPIView):
     pagination_class = CustomPagination
 
 
-
-
 class HabitsRetrieveAPIView(generics.RetrieveAPIView):
     serializer_class = HabitSerializer
     queryset = Habits.objects.all()
