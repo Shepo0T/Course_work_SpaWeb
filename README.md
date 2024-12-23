@@ -40,7 +40,7 @@
 1) Клонируете данный проект к себе на рабочую станцию
 2) Настройте переменные окружения по шаблону ".env.sample"
 3) Произведите запуск сборки контейнеров с помощью команду `docker compose up -d --build`
-4) После удачной сборки контейнера используйте данную команду загрузки фикстур`docker compose exec spa_app python manage.py loaddata /spa_app/users.json &&docker compose exec spa_app python manage.py loaddata /spa_app/habits.json`
+4) После удачной сборки контейнера используйте данную команду загрузки фикстур`docker compose exec spa_app python manage.py loaddata /spa_app/users.json && docker compose exec spa_app python manage.py loaddata /spa_app/habits.json`
 %% Порядок команд не изменять во избежание сбоя!!! %%
 
 Дальше открываете необходимые ссылки проекта
